@@ -1,0 +1,24 @@
+{
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "description": "automation practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "stepDefinitions": [
+    "cypress/e2e/[filepath].{js,ts}",
+    "cypress/support/step_definitions/*.{js,ts}",
+    "cypress/e2e/support/step_definitions/*.js"
+  ],
+  "keywords": [
+    "Automations"
+  ],
+  "author": "David",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "cypress": "latest"
+  }
+}
